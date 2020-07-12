@@ -4,6 +4,6 @@ function FindProxyForURL(url, host) {
         alert(host);
         return "PROXY 167.71.91.204:8080";
     }
-    // by default use no proxy
+    // by default use no proxy 
     return "DIRECT";
 }
