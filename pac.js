@@ -4,7 +4,7 @@ function FindProxyForURL(url, host) {
     if (shExpMatch(host, "*blog.fc2*") ||
         shExpMatch(host, "*viz.com*")
        )
-        return "PROXY 108.61.132.121:8080";
+        return "PROXY p.webshare.io:20000";
     
     // by default use no proxy
     return "DIRECT";
