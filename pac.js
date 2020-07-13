@@ -6,6 +6,6 @@ function FindProxyForURL(url, host) {
        )
         return "PROXY p.webshare.io:20000";
     
-    // by default use no proxy
+    // by default use no proxy 
     return "DIRECT";
 }
